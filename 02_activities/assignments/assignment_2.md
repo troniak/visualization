@@ -9,27 +9,39 @@
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
+
+    #### Bad Visualization Example
+    For an example of what not to do in data visualization, see the [bad visualization example](badviz.jpg).
       ```
-      Your answer...
-
-
-
-
-
-
-
+      High Cognitive Load: The sunburst chart is visually complex requiring viewers to process multiple layers and angles simultaneously due to the unconventiional layout, making it harder to compare values accurately.
+      Poor Comparability of Data: Data is hard to compare across groups due to the nested nature e.g. comparing the number of visitors across gender and age groups is unintuitive because the segment sizes do not reflect the number of individuals in each group. The collective size of the subgroups based on age do not match the size of the groups based on gender.
+      Inefficient Use of space: The central area simply labeled "Visitors" is for the most part wasted space. A simple bar chart or grouped bar chart would provide the same information more compactly and readably.
+      Misleading Representation: A small difference in arc length may correspond to significant numerical difference
+      Lack of a Clear Takeaway: no key insights are highlighted. Viewers must work hard to decipher the meaning, reducing its effectiveness as a communication tool.
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
-
-
-
-      
+      Use a more appropriate chart type: a grouped bar chart (one bar per age group, separated by gender) woudl improve clarity and comparability or a stacked bar chart could show total visitors with color-coded segments for gender distribution.
+      Ensure readability: a horizontal or vertical layout where labels and quantities are aligned would reduce eye strain and improve interpretation
       ```
+
+    #### Good Visualization Example
+    Here's an example of an effective visualization: ![Good Visualization Example](goodviz.png)
+    ```
+    This is an example of a clear presentation of the heirarchies of various types of cheese. 
+    The data is presented in a straightforward manner, easy for viewers to understand these relationships without confusion.
+    The type of chart is appropriate and helps rather than hinders the key message.
+    Colors are used effectively.
+    Areas of the chart are clearly and informatively labeled, easily distiguishable without being too overwhelming.
+    It is designed to be accessible to a wide audience including considerations for color blindness and readability.
+    ```
+    - How could this data visualization have been improved?
+    ```
+    The chart could be further enhanced with interactive elements possibly displaying nutritional information and statistics related to each type of cheese.
+    The font size and text readability could be further improved especially for smaller elements.
+    Consider different screen sizes and devices, and ensuring it prints clearly in both color and black-and-white.
+    ```
+
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
@@ -65,3 +77,4 @@ Checklist:
 - [ ] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
+
